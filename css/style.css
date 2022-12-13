@@ -52,7 +52,7 @@ a:any-link {
     background-size: cover;
   }
 
-#hero h1 {
+.parallax h1 {
     margin: 0 auto;
     font-size: 48px;
     font-weight: 700;
@@ -60,24 +60,28 @@ a:any-link {
     color: #fff;
 }
 
-#hero h2 {
-    color: #eee;
-    margin-bottom: 10px;
-    margin: 0 auto;
+.parallax h3 {
     font-size: 24px;
     font-weight: 300;
+    color: #fff;
+    text-align: center;
     font-family: "Poppins", sans-serif;
 }
 
-#hero .btn-get-started {
+.btn-get-started {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+    margin-top: 0;
     font-size: 64px;
     transition: 0.5s;
     color: #fff;
-    height: 60px;
-    margin: 0 auto;
+    /* justify-items: center; */
 }
 
-#hero .btn-get-started:hover {
+.btn-get-started:hover {
     padding-top: 10px;
     color: #d43076;
 }
