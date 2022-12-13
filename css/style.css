@@ -1,3 +1,121 @@
-.row {
-    margin-top: 30px;
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:any-link {
+    cursor: auto;
+}
+
+.card-img-top {
+    max-width: 300px;
+    height: auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-group {
+    margin-top: 50px;
+}
+
+.navbar {
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    padding-left: 50px;
+}
+
+#hero { 
+    /* The image used */
+    background-image: url("../images/work-api.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#hero h1 {
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #eee;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero .btn-get-started {
+    font-size: 64px;
+    transition: 0.5s;
+    color: #fff;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#hero .btn-get-started:hover {
+    padding-top: 10px;
+    color: #d43076;
+}
+
+.progress-bar-subheading {
+    text-align: left;
+    margin: 10px;
+}
+.progress-bar-perc {
+    float: right;
+    text-align: right;
+}
+
+.progress {
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ff0090;
+    transition: width .6s ease;
+}
+
+.portfolio-section-bg .contact-section-bg {
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.justify-content-lg-start {
+    -ms-flex-pack: start!important;
+    justify-content: flex-end !important;
 }
