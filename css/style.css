@@ -1,6 +1,14 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+:root {
+
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* .selector-for-some-widget {
+    box-sizing: content-box;
+} */
 
 .container {
     margin: 0 auto;
@@ -27,21 +35,33 @@ a:any-link {
 
 .card-group-about {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #skills {
     margin-bottom: 80px;
 }
 
-.navbar {
-    padding: 10px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    margin-bottom: 50px;
+/* Navigation styles start */
+
+#navbar-container {
+    padding: 0;
+    width: 100%;
 }
 
-.navbar .navbar-expand-lg .navbar-light {
-    padding-left: 50px;
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 500px;
+    margin-right: auto;
+}
+
 
 #hero { 
     /* The image used */
