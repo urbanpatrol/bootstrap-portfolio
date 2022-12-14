@@ -50,7 +50,7 @@ a:any-link {
 }
 
 .navbar-brand {
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -99,7 +99,6 @@ a:any-link {
     font-size: 64px;
     transition: 0.5s;
     color: #fff;
-    /* justify-items: center; */
 }
 
 .btn-get-started:hover {
@@ -136,11 +135,7 @@ a:any-link {
     transition: width .6s ease;
 }
 
-.portfolio-section-bg .contact-section-bg {
-    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-}
-
-.justify-content-lg-start {
-    -ms-flex-pack: start!important;
-    justify-content: flex-end !important;
+.portfolio-section-bg {
+    background: linear-gradient(180deg, #f6cddf78 0%, #fff 100%);
+    padding-top: 50px;
 }
