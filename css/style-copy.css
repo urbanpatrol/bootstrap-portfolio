@@ -21,8 +21,9 @@ a:any-link {
 }
 
 .card-img-top {
-    max-width: 300px;
-    height: auto;
+  background-image: 100%;  
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .card {
@@ -179,6 +180,7 @@ a {
 }
 /* Navigation End */
 
+/* Parallax */
 #hero { 
     /* The image used */
     background-image: url("../images/laptop-burst.jpg");
@@ -209,6 +211,7 @@ a {
     font-family: "Poppins", sans-serif;
 }
 
+/* Chevron Button */
 .btn-get-started {
     position: absolute;
     top: auto;
@@ -226,6 +229,7 @@ a {
     color: #d43076;
 }
 
+/* Skills */
 .progress-bar-subheading {
     text-align: left;
     margin: 10px;
@@ -255,6 +259,7 @@ a {
     transition: width .6s ease;
 }
 
+/* Work */
 .portfolio-section-bg {
     background: linear-gradient(180deg, #f6cddf78 0%, #fff 100%);
     padding-top: 50px;
