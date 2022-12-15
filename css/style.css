@@ -20,9 +20,13 @@ a:any-link {
     cursor: auto;
 }
 
-.card-img-top {
+.card-img-top-about {
     max-width: 300px;
     height: auto;
+}
+
+.card-img-top {
+  max-width: 100%;
 }
 
 .card {
