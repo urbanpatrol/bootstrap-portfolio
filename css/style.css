@@ -57,7 +57,6 @@ body {
 }
 
 * {
-  /* font-family: "Raleway"; */
   box-sizing: border-box;
 }
 
@@ -65,7 +64,17 @@ a {
   color: black;
 }
 
-.top-nav {
+.bg-light {
+  box-shadow: 0 3px 10px 0 rgba(131, 131, 131, 0.082);
+  background-color: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #f3f3f3;
+  }
+
+/* .top-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -75,7 +84,7 @@ a {
   height: 50px;
   padding: 1em;
   box-shadow: 0 3px 10px 0 rgba(131, 131, 131, 0.082);
-}
+} */
 
 #nav-padding-100 {
   padding-left: 100px !important;
