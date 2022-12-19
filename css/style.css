@@ -150,6 +150,16 @@ a {
   transition: width .6s ease;
 }
 
+@keyframes progress {
+  0% {
+    width: 0%; /* Start the animation at 0% width */
+  }
+}
+
+.progress-bar {
+  animation: progress 2s ease-in-out forwards; /* Animate the fill for 2 seconds, with an ease-in-out effect */
+}
+
 /* Work Portfolio */
 .portfolio-section-bg {
   background: linear-gradient(180deg, #f6cddf78 0%, #fff 100%);
