@@ -16,14 +16,15 @@ body {
   margin: 0 auto;
 }
 
+a:any-link {
+  cursor: auto;
+}
+
+/* About */
 #about-row {
   margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
-}
-
-a:any-link {
-  cursor: auto;
 }
 
 #avatar-img {
@@ -38,6 +39,10 @@ a:any-link {
 
 .card {
   border: none;
+}
+
+.card-text-avtr {
+  justify-items: left;
 }
 
 /* Navigation styles start */
@@ -75,6 +80,9 @@ a {
   background-color: #f3f3f3;
 }
 
+#logo {
+  max-width: 100px;
+}
 
 /* Header */
 #hero {
