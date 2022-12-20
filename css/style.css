@@ -177,14 +177,14 @@ a {
 
 /* Work Portfolio */
 .portfolio-section-bg {
-  background: linear-gradient(180deg, #f6cddf78 0%, #fff 100%);
+  background: linear-gradient(180deg, #eee 0%, #fff 100%);
   padding-top: 50px;
 }
 
 /* Contact */
 .contact-section-bg-black {
   margin-top: 50px;
-  background: linear-gradient(180deg, #f6cddf78 0%, #fff 100%);
+  background: linear-gradient(180deg, #eee 0%, #fff 100%);
   padding-top: 50px;
 }
 
@@ -214,3 +214,7 @@ a {
 .text-center {
   text-align: center !important;
 }
+
+.text-primary {
+  color: #ff0090!important;
+  }
