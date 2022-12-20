@@ -28,7 +28,7 @@ a:any-link {
 }
 
 #avatar-img {
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   margin: 0 auto;
 }
@@ -74,11 +74,18 @@ a {
   background-color: none;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-  color: #fff;
-  background-color: #f3f3f3;
+.nav-pills > li + li {
+  margin-right: 1rem;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #eee;
+  }
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #eee;
+  }
 
 #logo {
   max-width: 100px;
