@@ -95,7 +95,7 @@ a {
 }
 
 #logo {
-  max-width: 85px;
+  max-width: 50px;
 }
 
 /* Header */
@@ -137,7 +137,7 @@ a {
   transform: translate(-50%, -50%);
   padding-top: 30px;
   margin-top: 0;
-  font-size: 56px;
+  font-size: 50px;
   transition: 0.5s;
   color: #fff;
 }
